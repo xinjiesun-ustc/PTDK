@@ -46,9 +46,9 @@ def load_data_1(filename): #处理一个文本具有多个aspect的情况，所�
     return D_id,D,D_entity_plo
 
 
-os.environ['OPENAI_API_KEY'] = "sk-fjkZlDZXfO5MEtq455B648B0D60e4725Ba8aFcEe12E7De89"
-# os.environ['OPENAI_API_KEY'] = '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'
-os.environ['OPENAI_API_BASE'] = "https://api.ai-yyds.com/v1"
+os.environ['OPENAI_API_KEY'] = "XX "
+# os.environ['OPENAI_API_KEY'] = 'XXX'
+os.environ['OPENAI_API_BASE'] = "XXXX"
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.api_base = os.environ['OPENAI_API_BASE']
